@@ -30,3 +30,16 @@ return calcDevidedBy3And5(number);
   
 }
 ```
+### Experience
+2023 - СV, https://github.com/sasha63/rsschool-cv/blob/gh-pages/cv.md
+2017-now - SKB Kontur, system analyst
+
+### Education
+2009-2015 Ural State University, Master of information systems
+
+### English
+intermediate
+
+### Contacts
+alexandra.asipchuk@gmail.com
+discord: asipchuk
