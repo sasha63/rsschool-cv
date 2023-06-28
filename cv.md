@@ -41,6 +41,6 @@ return calcDevidedBy3And5(number);
 intermediate
 
 ### Contacts
-alexandra.asipchuk@gmail.com
-discord: asipchuk
-phone: 950 63 14 560
+- alexandra.asipchuk@gmail.com
+- discord: asipchuk
+- phone: 950 63 14 560
