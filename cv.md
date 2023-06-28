@@ -44,3 +44,4 @@ intermediate
 - alexandra.asipchuk@gmail.com
 - discord: asipchuk
 - phone: 950 63 14 560
+- github: sasha63
