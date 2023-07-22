@@ -1,0 +1,25 @@
+p {
+    color: rgb(128, 0, 79) !important;
+}
+
+.main-paragraph {
+    color: green;
+}
+
+#specialId {
+    color: blue;
+}
+
+.list {
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 5px;
+}
+ 
+.coolImage {
+    width: 50px;
+    height: 50px;
+    
+    background: url("https://i.pinimg.com/originals/25/90/a1/2590a1a6759841581e6e1ed7fc91376d.jpg") no-repeat center;
+    background-size: cover;
+}
