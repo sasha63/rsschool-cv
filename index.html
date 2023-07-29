@@ -11,9 +11,12 @@
 <header class = "header">
     <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a>Contacts</a></li>
           <li class="nav-item"><a>Summary</a></li>
           <li class="nav-item"><a>Skills</a></li>
+          <li class="nav-item"><a>Code's examples</a></li>
+          <li class="nav-item"><a>Experience</a></li>
+          <li class="nav-item"><a>Education</a></li>
+          <li class="nav-item"><a>Contacts</a></li>
         </ul>
       </nav>
 </header>
@@ -23,38 +26,59 @@
         <img class="displayed" src="assets/photo.png" alt="фото" width="300" height="300">
         </div> 
         <div class="section flex">
-                    <div class="a">Alexandra Asipchuk</div>
-                    <div class="b">System analyst</div>
+                    <h1 class="section">Alexandra Asipchuk</h1>
+                    <div class="hide">2</div>
+                    <div class="section">System analyst</div>
         </div>
     </div>
 <div class="line"></div>
-
-
-<section>
-<p class="main-paragraph">This is a paragraph.</p>
-<p id="specialId" style="color:black">This is a paragraph.</p>
-<p>This is a paragraph.</p>
-<span>This is a paragraph.</span>
-<span>This is a paragraph.</span>
-</section>
-<a href="http://www.google.com" target="_blank">Link</a>
-    <ol class="list">
-        <li>раз</li>
-        <li>два</li>
-        <li>три</li>
-    </ol>
-    <table>
-        <tr>
-            <td>тыц</td>
-            <td>тыц</td>
-            <td>тыц</td>
-        </tr>
-        <tr>
-            <td>тыц</td>
-            <td>тыц</td>
-            <td>тыц</td>
-        </tr>
-    </table> 
+    <section class="wrap">
+        <section class="section1">
+            <h1>Summary</h1>
+            <p>System analyst in SKB Kontur. Writing clear and simple reqiurements for developers. Using user story, use cases, BPMN, UML and text.</p>
+        </section>
+        <section class="section1">
+            <h1>Skills</h1>
+            <ul>
+                <li>confluence</li>
+                <li>YT</li>
+                <li>postman</li>
+                <li>insomnia</li>
+                <li>slack</li>
+                <li>git</li>
+            </ul>
+        </section>
+        <section class="section1">
+            <h1>Code's examples</h1>
+            <code class="code">function solution(number){ <br>
+                const calcDevidedBy3And5 = (number) => {<br>
+                  if (number < 0) return 0;<br>
+                  let sum = 0;<br>
+                  for (let i = 0; i < number; ++i) {<br>
+                      if (i % 3 === 0 || i % 5 === 0) { sum += i;} }<br>
+                  return sum;}<br>
+              return calcDevidedBy3And5(number);}</code>
+        </section>
+        <section class="section1">
+            <h1>Experience</h1>
+            <ul>
+                <li>2023 - СV, https://github.com/sasha63/rsschool-cv/blob/gh-pages/cv.md</li>
+                <li>2017-now - SKB Kontur, system analyst</li>
+            </ul>
+       </section>
+       <section class="section1">
+        <h1>Education</h1>
+        <p>2009-2015 Ural State University, Master of information systems</p>
+    </section>
+    <section class="section1">
+        <h1>Contacts</h1>
+        <ul>
+            <li>alexandra.asipchuk@gmail.com</li>
+            <li>discord: asipchuk</li>
+            <li>phone: 950 63 14 560</li>
+            <li>github: sasha63</li>
+        </ul></section>
+    </section>
 </main>
 <footer class="footer"></footer>
 </body>
